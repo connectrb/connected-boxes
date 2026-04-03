@@ -1,35 +1,33 @@
 baseURL = 'https://connectrb.github.io/connected-boxes/'
 languageCode = "en-us"
 title = "Connected-Boxes"
-theme = "PaperMod"
+theme = "hugo-book"
 
+# Hugo Book works best when it manages its own menus, 
+# but you can keep these for standard Hugo compatibility.
 [pagination]
   pagerSize = 5
 
 [params]
+  # Basic Metadata
   author = "Raman Bhalla"
   description = "Dad | Learner | Advisor"
-  defaultTheme = "auto"
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  canonifyURLs = false
-  relativeURLs = false
+  
+  # Hugo Book specific settings
+  # Options: "light", "dark", "auto"
+  BookTheme = "auto"
+  
+  # Enables the search functionality in the sidebar
+  BookSearch = true
+  
+  # (Optional) Controls the width of the page content
+  # BookSectionEnumerable = true
+  
+  # (Optional) Use this if you want to show 'Table of Contents' on the right
+  BookToC = true
 
-  [params.homeInfoParams]
-    Title = "Hi, I'm Raman"
-    Content = "Welcome! I write about connected boxes."
-
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/ramandeepbhalla"
-
-  [[params.socialIcons]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/raman-bhalla"
-
+# Hugo Book usually generates the menu automatically from your 
+# content folder structure, but you can define manual links here.
 [menu]
   [[menu.main]]
     name = "Blog"
