@@ -21,7 +21,7 @@ jobs:
 
       - name: Build
         # Added -v for verbose output and --printPathWarnings
-        run: hugo --minify --verbose --printPathWarnings
+        run: hugo --minify --printPathWarnings
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
