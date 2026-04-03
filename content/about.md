@@ -8,9 +8,9 @@ draft = false
 
 According to my kids, I get paid to "talk and draw boxes."
 
-They aren't wrong. After two and a half decades in the industry, I’ve realised that the most complex problems in the world are usually a bunch of disconnected boxes waiting for someone to draw the right lines between them.
+They aren't wrong. After two and a half decades in the industry, I’ve realised that solving most complex problems require connecting the right boxes.
 
-I’ve spent my career helping organisations move from a "Why" to "What" and "How". Here is what generally I do:
+I’ve spent my career helping organisations move from a "Why" to "What" and "How". Here is what generally I do day to day:
 
 - **Bridging the Gap:** I translate "Executive Vision" into "Technical Reality".
 
@@ -18,6 +18,6 @@ I’ve spent my career helping organisations move from a "Why" to "What" and "Ho
 
 * **Building Connections:** Not just between systems, but between people. Technology is the easy part; human alignment is where the real work happens.
 
-I’m currently sharing these stories here at **Connected Boxes**.
+I intend to share these stories here at **Connected Boxes**.
 
 At the end of the day, I’m just a dad trying to make technology approachable for humans and having a bit of fun along the way.
