@@ -26,7 +26,7 @@ I'm starting to write this, because after so long in the industry, I think I can
 This is going to be just my reflections on being a tech professional, an industry consultant, and a dad who is still trying to prove to his daughters that my job is more complex than drawing boxes.
 
 {{< figure 
-    src="spf-whiteboard-session.jpeg" 
+    src="/spf-whiteboard-session.jpeg" 
     alt="Recent whiteboard session" 
     caption="Here is one of the recent whiteboard sessions" 
     align="center" 
