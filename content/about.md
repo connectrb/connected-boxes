@@ -14,9 +14,9 @@ I’ve spent my career helping organisations move from a "Why" to "What" and "Ho
 
 - **Bridging the Gap:** I translate "Executive Vision" into "Technical Reality".
 
-* **Simplifying the Complex:** I spend a lot of time explaining strategy in plain English. If I can’t bring people along for the ride, I can’t build or deliver the solution.
+- **Simplifying the Complex:** I spend a lot of time explaining strategy in plain English. If I can’t bring people along for the ride, I can’t build or deliver the solution.
 
-* **Building Connections:** Not just between systems, but between people. Technology is the easy part; human alignment is where the real work happens.
+- **Building Connections:** Not just between systems, but between people. Technology is the easy part; human alignment is where the real work happens.
 
 I intend to share these stories here at **Connected Boxes**.
 
