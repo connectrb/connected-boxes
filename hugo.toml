@@ -15,8 +15,8 @@ theme = "PaperMod"
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
-  canonifyURLs = true
-  relativeURLs = true
+  canonifyURLs = false
+  relativeURLs = false
 
   [params.homeInfoParams]
     Title = "Hi, I'm Raman"
