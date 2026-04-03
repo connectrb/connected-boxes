@@ -1,0 +1,43 @@
+baseURL = "https://connected-boxes.github.io/"
+languageCode = "en-us"
+title = "Connected-Boxes"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  author = "Raman Bhalla"
+  description = "Dad | Learner | Advisor"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+  [params.homeInfoParams]
+    Title = "Hi, I'm Raman 👋"
+    Content = "Welcome to my site. I write about connected boxes."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/ramandeepbhalla"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/raman-bhalla"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3

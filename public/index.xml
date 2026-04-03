@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Connected-Boxes</title>
+    <link>https://connected-boxes.github.io/</link>
+    <description>Recent content on Connected-Boxes</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Apr 2026 13:14:28 +1100</lastBuildDate>
+    <atom:link href="https://connected-boxes.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post#1: 25 Years Of Drawing Boxes</title>
+      <link>https://connected-boxes.github.io/posts/post1-25-years-of-drawing-boxes/</link>
+      <pubDate>Fri, 03 Apr 2026 13:14:28 +1100</pubDate>
+      <guid>https://connected-boxes.github.io/posts/post1-25-years-of-drawing-boxes/</guid>
+      <description>My very first post</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://connected-boxes.github.io/about/</link>
+      <pubDate>Fri, 03 Apr 2026 12:06:47 +1100</pubDate>
+      <guid>https://connected-boxes.github.io/about/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;25 years of technology consulting. Thousands of whiteboards. Two daughters who still aren’t convinced I have a real job.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;According to my kids, I get paid to &amp;ldquo;talk and draw boxes.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;They aren&amp;rsquo;t wrong. After two and a half decades in the industry, I’ve realized that the most complex problems in the world are usually just a bunch of messy, disconnected boxes waiting for someone to draw the right lines between them.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
