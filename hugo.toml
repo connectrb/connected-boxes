@@ -1,4 +1,4 @@
-baseURL = "https://connected-boxes.github.io/"
+baseURL = 'https://ramandeepbhalla.github.io/connected-boxes/'
 languageCode = "en-us"
 title = "Connected-Boxes"
 theme = "PaperMod"
