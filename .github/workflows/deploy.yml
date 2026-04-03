@@ -2,28 +2,29 @@ name: Deploy Hugo to GitHub Pages
 
 on:
   push:
-    # Changed to 'main' - verify if your branch is master or main
-    branches: [main, master] 
+    branches: [master, main] # Covers both possibilities
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      # This addresses the specific warning you are seeing
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true 
     steps:
       - uses: actions/checkout@v4
         with:
-          # Changed to recursive to ensure the theme submodule is fully pulled
-          submodules: recursive
+          submodules: recursive # Crucial for Hugo Book
           fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest' # Uses the most stable version
+          hugo-version: 'latest'
           extended: true
 
       - name: Build
-        # Adding --gc to clean up old files and -v for better error logging
-        run: hugo --minify --gc -v
+        # -v (verbose) will show us the EXACT error if it fails again
+        run: hugo --minify -v 
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
