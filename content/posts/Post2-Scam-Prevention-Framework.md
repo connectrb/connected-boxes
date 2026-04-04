@@ -2,7 +2,7 @@
 title: "Post#2: What's Scam Prevention Frameworks"
 date: 2026-04-04T09:46:48+11:00
 description: "Breaking down Australia's new Scam Prevention Framework - what it means for telcos, banks, and everyday Aussies"
-tags: ["scams", "telcos", "regulation", "simple-tech"]
+tags: ["scams", "telcos", "regulation"]
 # bookComments: false
 # bookSearchExclude: false
 # bookPostThumbnail: thumbnail.*
@@ -62,7 +62,6 @@ Those fake investment ads on social media now have to:
 Here's the cool bit: **we're connecting the right boxes**.
 
 Before: Scam happens → You lose money → You report it → Nothing changes.
-
 Now: Scam attempt → Bank spots it → Telco blocks the number → Social media takes down the account → Everyone learns and gets better.
 
 The boxes are getting connected.
@@ -74,8 +73,4 @@ Scams aren't going away overnight. Scammers will always be one step ahead. But t
 - The friction for scammers increases
 - You've got more backup when things go wrong
 
-Will this stop all scams? No. But it's progress worth celebrating.
-
----
-
-*Got thoughts on scam prevention? Share below or [reach out](/about). Next time, I'll explain why implementing this isn't as simple as it sounds.*
+Will this stop all scams? No. But it's progress worth celebrating. 
