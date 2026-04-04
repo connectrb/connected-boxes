@@ -1,0 +1,49 @@
+{{ define "main" }}
+<div class="book-page">
+  <header class="book-header">
+    <h1>{{ .Title }}</h1>
+  </header>
+
+  <article class="markdown book-article">
+    {{ .Content }}
+    
+    <hr>
+    
+    <h2>Recent Posts</h2>
+    
+    {{ $posts := where .Site.RegularPages "Section" "posts" }}
+    {{ $recent := $posts.ByDate.Reverse | first 3 }}
+    
+    {{ if $recent }}
+      <ul class="book-posts">
+      {{ range $recent }}
+        <li class="book-post">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <div class="book-post-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">
+              {{ .Date.Format "January 2, 2006" }}
+            </time>
+          </div>
+          <p>{{ .Summary | truncate 200 }}</p>
+          <a href="{{ .RelPermalink }}" class="book-read-more">Read more →</a>
+        </li>
+      {{ end }}
+      </ul>
+    {{ else }}
+      <p>No posts yet. Check back soon!</p>
+    {{ end }}
+    
+    <div class="book-post-view-all">
+      <a href="/posts/">View all posts →</a>
+    </div>
+    
+    <hr>
+    
+    <h2>Find Me Elsewhere</h2>
+    <ul>
+      <li><a href="https://github.com/rdbhalla">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/raman-bhalla">LinkedIn</a></li>
+    </ul>
+  </article>
+</div>
+{{ end }}
