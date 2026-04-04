@@ -1,5 +1,5 @@
 ---
-title: "Post#2: What's Scam Prevention Frameworks"
+title: "Post#2: What's Scam Prevention Framework"
 date: 2026-04-04T09:46:48+11:00
 description: "Breaking down Australia's new Scam Prevention Framework - what it means for telcos, banks, and everyday Aussies"
 tags: ["scams", "telcos", "regulation"]
