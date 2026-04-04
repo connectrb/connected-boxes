@@ -2,6 +2,7 @@
 title = 'About'
 date = 2026-04-03T12:06:47+11:00
 draft = false
+weight = 1
 +++
 
 **25 years of technology consulting. Thousands of whiteboards. Two daughters who still aren’t convinced I have a real job.**
