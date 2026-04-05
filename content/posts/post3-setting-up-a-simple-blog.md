@@ -33,7 +33,7 @@ I'm a bit of a fanboy for terminal-based tools. Since I don't get to use the ter
 
 I did run into some initial compatibility issues between Hugo and the templates I chose, but they were easy to rectify by running a folder structure and code scan through OpenCode.
 
-![Writing-Setup](Writing-Setup-)
+![Writing-Setup](Writing-Setup-2026-04-05-13-36-27.png)
 *My Humble Writing Setup*
 
 If you are thinking of getting into writing, just get started.
