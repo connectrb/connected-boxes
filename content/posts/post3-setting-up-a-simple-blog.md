@@ -25,7 +25,7 @@ I've been experimenting with a few different models on OpenRouter to see what wo
 - **Deepseek V3.2:** Cheaper, but can be slow.
 - **Claude Sonnet 4.6:** Great, but relatively expensive for simple tasks.
 
-![OpenRouter-Activity](/connected-boxes/images/posts/OpenRouter-Activity-2026-04-05-11-38-15.png)
+![OpenRouter-Activity](/images/posts/OpenRouter-Activity-2026-04-05-11-38-15.png)
 *My OpenRouter Activity Snapshot*
 
 ## The Workflow
@@ -33,7 +33,7 @@ I'm a bit of a fanboy for terminal-based tools. Since I don't get to use the ter
 
 I did run into some initial compatibility issues between Hugo and the templates I chose, but they were easy to rectify by running a folder structure and code scan through OpenCode.
 
-![Writing-Setup](/connected-boxes/images/posts/Writing-Setup-2026-04-05-13-36-27.png)
+![Writing-Setup](/images/posts/Writing-Setup-2026-04-05-13-36-27.png)
 *My Humble Writing Setup*
 
 If you are thinking of getting into writing, just get started.

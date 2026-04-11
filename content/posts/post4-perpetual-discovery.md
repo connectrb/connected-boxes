@@ -61,5 +61,5 @@ The goal isn't to eliminate discovery, but to get better at it. Learn to discove
 
 The system will keep growing, more boxes will keep connecting. The documentation will keep lagging. The mystery will persist.
 
-![Whiteboard](/connected-boxes/images/posts/archaeology.png)
+![Whiteboard](/images/posts/archaeology.png)
 *Gemini Banana thinks this is representation of my post*
