@@ -1,14 +1,14 @@
 {
   "name": "Connected-Boxes",
   "short_name": "Connected-Boxes",
-  "start_url": "/connected-boxes/",
-  "scope": "/connected-boxes/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/connected-boxes/favicon.svg",
+      "src": "/favicon.svg",
       "sizes": "512x512"
     }
   ]
