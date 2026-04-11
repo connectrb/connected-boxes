@@ -1,9 +1,9 @@
-baseURL = 'https://rdbhalla.github.io/connected-boxes/'
+baseURL = 'https://connected-boxes.pages.dev/'
 languageCode = "en-us"
 title = "Connected-Boxes"
 theme = "hugo-book"
 
-# Hugo Book works best when it manages its own menus, 
+# Hugo Book works best when it manages its own menus,
 # but you can keep these for standard Hugo compatibility.
 [pagination]
   pagerSize = 5
@@ -12,24 +12,24 @@ theme = "hugo-book"
   # Basic Metadata
   author = "Raman Bhalla"
   description = "Dad | Learner | Advisor"
-  
+
   # Hugo Book specific settings
   # Options: "light", "dark", "auto"
   BookTheme = "auto"
-  
+
   # Enables the search functionality in the sidebar
   BookSearch = true
-  
+
   # (Optional) Controls the width of the page content
   # BookSectionEnumerable = true
-  
+
   # (Optional) Use this if you want to show 'Table of Contents' on the right
   BookToC = true
-  
+
   # Set section to '*' to render all content in the sidebar menu
   BookSection = "*"
 
-# Hugo Book usually generates the menu automatically from your 
+# Hugo Book usually generates the menu automatically from your
 # content folder structure, but you can define manual links here.
 [menu]
   [[menu.main]]
