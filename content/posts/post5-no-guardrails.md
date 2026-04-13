@@ -1,7 +1,7 @@
 ---
 title: "Post#5: OpenCode Vibing Gone Wrong"
 date: 2026-04-12T22:18:47+10:00
-draft: true
+draft: false
 # bookComments: false
 # bookSearchExclude: false
 # bookPostThumbnail: thumbnail.*
