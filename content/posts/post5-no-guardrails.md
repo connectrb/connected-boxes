@@ -1,58 +1,76 @@
 ---
 title: "Post#5: OpenCode Vibing Gone Wrong"
 date: 2026-04-12T22:18:47+10:00
+draft: true
 # bookComments: false
 # bookSearchExclude: false
 # bookPostThumbnail: thumbnail.*
 ---
 
-*"I am so disappointed. You wasted $0.35 and actually broke my code completely."*
+*"I am so disappointed. You wasted $0.35 and actually broke my blog completely."*
 
-*"No, that did not fix the build on github. Can you roll back all the changes you just made?"*
+*"No, that did not fix the blog. Can you roll back all the changes you just made?"*
 
-*"You deleted my draft write-up for Post#4. Where is my Post#4?"*
+*"You deleted my draft write-up for Post#4. Where is it?"*
 
 *"I wasted almost a dollar and I have lost my draft write up. Super disappointed."*
 
-This is me "vibing" with OpenCode when I asked it to recommend a better Hugo Template for my blog. At the end of this "vibing", my blog was completely broken, and I had lost my Post#4 draft completely.
+This is me "vibing" with my AI coding assistant(OpenCode) when I asked it to recommend a better looking design for my blog. At the end of this "vibing", my blog was completely broken, and I had lost my Post#4 draft completely.
 
 ## What Actually Happened
 
-OpenCode had been brilliant so far. It helped me resolve my github conflicts and also Hugo / Template version mismatches which were leading to some GitHub action failures. I was diligently following the instructions on Hugo's website, and had just successfully integrated Giscus for engagement.
+The AI had been brilliant so far. It helped me fix technical glitches (Github Version Conflicts, Action Failures, etc) that were stopping me from publishing my blog. I had just added an open-source comment system so visitors could leave notes on my posts. _(I’ve since switched to an even simpler comment tool called Cusdis)._
 
-Giscus is an open-source comments system powered by Github Discussions. I integrated into my blog so that visitors can leave comments on my blog *(I have now replaced Giscus with Cusdis)*.
-
-I was happy when Giscus got properly integrated, and then I thought to myself - *"This is looking good! But, am I using the best looking Hugo template?"*
+I was happy with the progress, so I thought — "This is looking good! But is there a better-looking design I could be using for my blog?"
 
 And that's it! Without much deliberation, I entered a prompt - 
 
-*"Review my hugo theme and recommend if I can get a better looking template to suit my content type."* **Enter**
+*"Review my current blog design and recommend a better template for my content type."*  **[Enter]**
 
-My next 4 prompts are listed in the beginning of this write-up. OpenCode took the complete liberty to not only find a template, it also updated my entire file structure and theme files. When I tried to test it locally by running the 'hugo server -D', it failed to load. 
+My next 4 prompts are listed in the beginning of this write-up. My AI assistant didn't just find a template; it took the liberty of rewriting my entire blog's structure and design file. When I tried to view the blog, it failed to load. 
 
-**The entire thing stopped working.**	 
+**Everything stopped working.**	 
 
-> I asked for recommendation. I got a renovation. And it happened so fast, I couldn't even type - 'Wait, What are you doing?'
+> I asked for recommendation. I got a total renovation. And it happened so fast, I couldn't even type - 'Wait, What are you doing?'
 
-I was using a high-reasoning model (the 'Big Pickle' alias in OpenRouter), assuming its intelligence meant it would be cautious. I was wrong.
+I was using a high-reasoning model (the 'Big Pickle' as my AI Assistant), assuming its intelligence meant it would be cautious. I was wrong.
 
-## What Went Wrong - Agentic Freedom
+## What Went Wrong - Too Much Freedom
 
-As you may have already guessed what went wrong - A Lot!
+As you may have already a lot went wrong - 
 
-1. The AI Agent had the full liberty to take decision and update the theme files.
-2. The AI Agent took the liberty to do a GitHub Clone when I asked it to rollback the changes.
-3. The AI Agent deleted my Post#4 draft because this file was not checked into GitHub yet, and hence it was removed as part of rollback.
+1. **Unchecked Power:**  The AI Agent had the full liberty to make decisions and update the core files of my blog.
+2. **The "Undo" mistake:** The AI Agent took the liberty to undo the change by resetting all my files by downloading a fresh copy from my online repository (i.e. Github Clone).
+3. **The Loss:** The AI Agent deleted my Post#4 draft because this file was not checked into Github, and hence it was removed as part of rollback.
 
 I learned two things immediately - 
 1. The AI Agent must opreate within guardrails defined by me. 
-2. The AI Agent must not have access to my GitHub Main Branch.
+2. The AI Agent must not have access to my master backup (Github) without supervision.
 
 ## The Resolution - Set The Guardrails
 
-If you have read my [Post#3](https://ramanbhalla.com/posts/post3-setting-up-a-simple-blog/), you may recall that I had initialised OpenCode in my Hugo Directory, and it had quickly created 'AGENT.MD' file with all the context information. 
+To fix this, I created a "Rules" file for the AI Agent to read every time it starts working. It acts as a digital safety manual. See the actual changes at the end of this post. Here is the gist of new rules:
+- **Protect My Content:** Never delete or change my article files.
+- **Don't Touch the Foundation:** Do not change the blog website's core settings unless I specifically ask.
+- **Stay Local:** Never upload, download, or change my master copy in Github.
+- **Safety Check:** The AI must re-read these rules after every task and confirm it didn't break any of them.
 
-All I had to do was use this AGENT.md file to set guardrails. These are my additional instructions -  
+## What about Post#4
+
+I couldn't recover it. I had to write it all over again. 
+
+I learnt my lesson. My drafts live in Github now. I look out for "Safety Check: PASSED" in every AI response - a small ritual that assures me that we are good. 
+
+AI helps in connecting boxes. We just need to make sure that walls can't be knocked down.
+
+Safety Check: PASSED
+
+---
+## Details For Curious Minds
+
+If you have read my [Post#3](https://ramanbhalla.com/posts/post3-setting-up-a-simple-blog/), OpenCode created 'AGENT.MD' file with all the context information. 
+
+These are now my additional instructions in AGENT.md to set the guardrails -  
 
 ```markdown
 # OPENCODE INSTRUCTIONS - READ FIRST
@@ -92,13 +110,3 @@ After completing **any** task, before responding to the user:
 4. Include "Safety Check: PASSED" in your final response
 
 ``` 
-
-## What about Post#4
-
-I couldn't recover it. I had to write it all over again. 
-
-I learnt my lesson. My drafts live in Github now. I look out for "Safety Check: PASSED" in every AI response - a small ritual that assures me that we are good. 
-
-AI helps in connecting boxes. We just need to make sure that walls can't be knocked down.
-
-Safety Check: PASSED
