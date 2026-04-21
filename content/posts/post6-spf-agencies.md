@@ -2,9 +2,7 @@
 title: "Post#6: The SPF Good Guys"
 date: 2026-04-14T18:04:41+10:00
 draft: false
-# bookComments: false
-# bookSearchExclude: false
-# bookPostThumbnail: thumbnail.*
+
 ---
 **Scam!**
 
@@ -12,7 +10,12 @@ We’ve all seen the headlines. It’s usually a variation of the same story: th
 
 But my recent work has made me look under the hood of Australia’s new defense system, the reality is far more complex than a simple police chase. To stop a scam today, it takes an entire ecosystem.
 
-This is the world of the Scams Prevention Framework (SPF). Established under the Scams Prevention Framework Act 2025 (a major addition to our Competition and Consumer Act 2010), this is the blueprint for how Australia is finally fighting back. Here is a look at the "who’s who" in the zoo.
+This is the world of the Scams Prevention Framework (SPF). Established under the Scams Prevention Framework Act 2025 (a major addition to our Competition and Consumer Act 2010), this is the blueprint for how Australia is finally fighting back. 
+
+Here is a look at the "who’s who" in the zoo.
+
+![SPF-Good-Guys](/images/posts/spf-good-guys.jpg)
+*SPF Good Guys - Thanks NotebookLM for drawing this*
 
 ### The Rule Makers
 
@@ -25,7 +28,7 @@ _Role: Policy authority and rule-maker_
 
 ### Oversight and Enforcement
 
-#### ACCC (Australian Competition & Consumer Commission)
+#### ACCC (Australian Competition & Consumspf-good-guys.jpger Commission)
 _Role: Regulator and enforcement authority_
 
 - Overall oversight body for SPF across the economy.

@@ -2,10 +2,9 @@
 title: "Post#7: Scam Prevention, Detection and Disruption"
 date: 2026-04-19T17:08:29+10:00
 draft: true
-# bookComments: false
-# bookSearchExclude: false
-# bookPostThumbnail: thumbnail.*
+
 ---
+
 Scams are obviously a nightmare, but the deeper I dig into this, the more I’m struck by the sheer scale of what they’re pulling off. It’s wild—and honestly terrifying — how easily traditional identity checks just fall apart the second a scammer pulls out a stolen passport. And they seem to have an endless supply of them. The odds are stacked against us: every time a Telco manages to flag and block an account, scammers just swap it out for a fresh, stolen identity and keep going. The resilience of stolen passports supply chain is just staggering.
 
 I wanted to share my understanding of how new SPF regulation is panning out for Telcos. Today I will touch on requirements to prevent, detect and disrupt.
@@ -75,8 +74,23 @@ Since Telcos are the piples through which the scammer traffic flows, Telcos must
 - Repeated short-duration calls, which ofen indicated automated "robocalling"
 - Communications originating from invalid numbers or those on "do not originate" list.
 
-### Identification of Engaged Victims
+### Identification of Engaged Victims  
+
+Telcos not only have to identify the scammers, they must also have systems to identify the customers who have engaged with a suspected scammer,such as those who returned a text message or spent time speaking with them on a call.
 
 ### Phishing Link Filters
-  
 
+Telcos also must implement anti-scam filters designed to identify and block SMS messages that contain known malicious phishing URLs.
+
+## Disrupt Scenarios
+
+Scenarios that involve taking decisive action once a scam threat is identified or reported.
+
+### CLI Blocking and Withdrawal
+Telcos must block calls and messages from Calling Line Identifiers (CLIs) confirmed to be scams. During an ongoing investigation, they may temporarily withdraw the CLI to stop further engagement while they verify the threat.
+
+## Traceback Cooperation: 
+Telcos are required to cooperate with other providers and the regulator to trace the origin of suspected scam calls across different networks.
+
+## Acting on Shared Actionable Scam Intelligence (ASI): 
+Telcos must share ASI with other industry partners, and act on verified indicators (such as phone numbers or URLs) shared by other sectors like banks. Once a bank identifies a scam, the telco uses that intelligence to block the reported number across the entire network, preventing hundreds of other potential victims from being contacted.
