@@ -26,7 +26,7 @@ Today I want to look at different layers of protections Telcos are building to i
 - DISRUPT
 
 ![SPF-Layers](/images/posts/spf-friction-layers.png)
-*Scam Prevention Framework Friction Layers *
+*Scam Prevention Framework Friction Layers*
 
 ---
 
@@ -109,7 +109,7 @@ Telcos must block calls and messages from Calling Line Identifiers (CLIs) confir
 
 Telcos are required to cooperate with other providers and the regulator to trace the origin of suspected scam calls across different networks.
 
-> **Safe Harbour Protections:**To encourage aggressive disruption, the Act provides a 28-day 'safe harbour' period. This protects telcos from being sued for damages by a customer (or a business) if the telco mistakenly blocks a service while investigating a high-risk scam lead, provided they act in good faith.
+> **Safe Harbour Protections:** To encourage aggressive disruption, the Act provides a 28-day 'safe harbour' period. This protects telcos from being sued for damages by a customer (or a business) if the telco mistakenly blocks a service while investigating a high-risk scam lead, provided they act in good faith.
 
 ### Acting on Shared Actionable Scam Intelligence (ASI)
 
