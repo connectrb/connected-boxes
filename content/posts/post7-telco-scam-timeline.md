@@ -1,7 +1,7 @@
 ---
 title: "Post#7 Rewrite: How Telcos Are Being Pushed to Fight Scams"
 date: 2026-05-07T09:00:00+10:00
-draft: true
+draft: false
 
 ---
 This is a true story.
