@@ -50,7 +50,9 @@ I soon understood my own predicament.
 
 > On one side, I don't want the agent to be limited by my knowledge, and at the same time, I don't want agent to be liberal with its own knowledge which takes away the trust I have on its outcome.
 
+## Thinking this through
+I realise that I am uncomfortable when I am leaving the procedural decisions with the agent i.e. I am unable to trust the result, if I don't know how agent got to it. I know, the agent is probabalisitic, and I can't let probability decide what seems to be a very deterministic activity - there has to be a set prodedure for verifying the tax-retrun.
 
+So that's the thought - I have to train the agent to follow a set procedure. The procedure which I am happy to co-design with the agent, and once I understand that agent is following this procedure, I will be reasonably comfortable with it as long as the agent sticks to the defined procedure.   
 
-
-
+I need to co-design a SKILL.md for agent, which the agent can use to do the task I am assigning it to do.
