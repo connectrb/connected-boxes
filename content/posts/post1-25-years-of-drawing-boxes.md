@@ -1,5 +1,5 @@
 +++
-title = 'Post#1: 25 Years Of Drawing Boxes'
+title = '25 Years Of Drawing Boxes'
 date = 2026-04-03T13:14:28+11:00
 draft = false
 description = "My very first post"

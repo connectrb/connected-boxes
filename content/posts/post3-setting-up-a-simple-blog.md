@@ -1,5 +1,5 @@
 +++
-title = "Post#3: Why I swapped LinkedIn for Hugo"
+title = "Why I swapped LinkedIn for Hugo"
 date = 2026-04-05T11:26:14+10:00
 # bookComments = false
 # bookSearchExclude = false

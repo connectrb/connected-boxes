@@ -1,5 +1,5 @@
 ---
-title: "Post#6: The SPF Good Guys"
+title: "The SPF Good Guys"
 date: 2026-04-14T18:04:41+10:00
 draft: false
 

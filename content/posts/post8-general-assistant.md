@@ -1,5 +1,5 @@
 ---
-title: "Post#8: I Tried Using AI to Verify My Accountant's Work"
+title: "Post#8: I Used An Agent To Verify My Accountant's Work"
 date: 2026-05-07T19:56:27+10:00
 draft: false
 ---

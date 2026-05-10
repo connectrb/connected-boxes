@@ -1,5 +1,5 @@
 ---
-title: "Post#4: Archaeology of Enterprises"
+title: "Archaeology of Enterprises"
 date: 2026-04-07T00:15:48+10:00
 # bookComments: false
 # bookSearchExclude: false

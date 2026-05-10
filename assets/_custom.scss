@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, Monaco, monospace;
+}
+
+body,
+h1, h2, h3, h4, h5, h6,
+.book-menu,
+.book-toc,
+.book-header,
+.book-search input,
+.book-footer,
+.book-brand,
+.book-languages,
+nav label {
+  font-family: var(--font-body);
+}
+
+code,
+pre,
+kbd,
+samp {
+  font-family: var(--font-mono);
+}

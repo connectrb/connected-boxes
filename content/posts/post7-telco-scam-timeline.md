@@ -1,5 +1,5 @@
 ---
-title: "Post#7: Why Scam Defence Can't Rely on Victims Alone"
+title: "Why Scam Defence Can't Rely on Victims Alone"
 date: 2026-05-07T09:00:00+10:00
 draft: false
 
