@@ -9,12 +9,14 @@ draft: false
 I dread the annual task of filing my tax returns. I'm fine with compiling documents, but I struggle to verify if my tax accountant has accurately accounted for all income and expenses to claim the correct deductions. Considering my wife's tax return as well, that's 70 pages of numbers I must carefully verify before signing.
 
 So this year, when the time arrived, I thought to myself – It's 2026. Couldn't AI help me with this?
+
 ---
 ## The Idea: Use AI to Verify My Tax Agent's Work
 
 The concept is straightforward. My tax agent has completed the work. My goal is simply to have an AI read all the documents (investment incomes, expenses, etc.) I provided to my agent and verify the final tax return details. I recently transitioned from OpenCode to pi.dev for my agentic solutions. All I had to do was provide a simple instruction: read all documents from the input folder and verify the details in my tax return.
 
 **As a side note – I highly recommend installing and playing with pi.dev. It's addictively good.**
+
 ---
 ## Initial Attempt
 
@@ -39,6 +41,7 @@ It felt, frankly, eccentric.
 After what felt like an eternity, it returned with a slightly underwhelming response.
 
 ![Pi.dev's underwhelming verification response: a brief confirmation with minimal detail](/images/posts/tax-verify-result.jpeg)
+
 ---
 ## Is That It?
 
@@ -53,12 +56,14 @@ So, what if I instructed it to follow the exact steps I would take? That would b
 I soon understood my predicament.
 
 > On one side, I don't want the agent limited by my knowledge; at the same time, I don't want it to be liberal with its own knowledge, which erodes my trust in its outcome.
+
 ---
 ## Thinking This Through: I Want to Know My Agent's Skills
 
 I realised I felt uncomfortable delegating procedural decisions to the agent; I couldn't trust the outcome if I didn't understand how it was reached. I know agents are probabilistic, and I can't let probability decide what appears to be a very deterministic activity – verifying a tax return requires a set procedure.
 
 So, the thought was: I must train the agent to follow a specific procedure. This is a procedure I'm happy to co-design with the agent. Once I understand it's adhering to this defined procedure, I'll be reasonably comfortable with its work, provided it sticks to it.
+
 ---
 ### The Agent Personality
 
@@ -83,6 +88,7 @@ My `SYSTEMS.md` is straightforward. Yes, I've named my agent "Caesor".
 3. **Structuring:** Use Markdown (tables, bullets, headers) and frameworks for broad requests.
 4. **Tone:** Professional, direct, and supportive.
 ```
+
 ---
 ### The Agent Skill
 
@@ -113,6 +119,7 @@ Brainstorming this with the agent, we developed an 6-stage `SKILL.md` framework.
 *   **Stage 6: Compile Final Verification Report:** Summarizing findings.
 
 For robust PDF handling, we implemented a "Visual-Reasoning Loop" involving structural extraction and OCR verification, guided by a confidence scoring system. This loop uses multiple extraction techniques and a **Confidence Scoring System** to ensure bank-grade precision. The comparison of outputs assigns HIGH, MEDIUM, or LOW confidence scores, with MEDIUM or LOW confidence values flagged for manual review. A more detailed technical breakdown of the `SKILL.md` and visual-reasoning process could be provided upon request.
+
 ---
 ## Another Missing Piece - Tools
 
@@ -125,6 +132,7 @@ Since most documents are PDFs, I wanted extraction to be as precise as possible.
 **Comparison & Scoring:** Outputs are compared, assigning HIGH, MEDIUM, or LOW confidence scores. Values with MEDIUM or LOW confidence are flagged for manual review.
 
 My SKILL.md finally took shape with these stages. (I'll skip the full details here, but feel free to reach out if you want to see the complete `SKILL.md`.)
+
 ---
 ## Final Verification Report
 
@@ -139,6 +147,7 @@ After all the verification, the agent was required to produce a final verificati
     - Proof of all derived values.
 4. Missed Opportunity Alert
     - Any expenses found in source PDFs that are not claimed in the tax return
+
 ---
 ## The Outcome: Clarity Through Specification
 
@@ -151,6 +160,7 @@ For me, the clarity came from describing the process in detail.
 So, what did my "skilled" agent find? My tax agent had done a surprisingly good job. She had accounted for all numbers accurately. However, the AI agent picked up a gap that I probably would have overlooked.
 
 The agent discovered that for one of my investment loans, a statement was missing. Hence, my tax agent had only accounted for the months for which I had provided the statement. This implied that I was claiming a deduction for not the whole year, but only for the statement period. This one gap itself was worth spending the time on.
+
 ---
 ## What's Next: Expanding the Specification Horizon
 
