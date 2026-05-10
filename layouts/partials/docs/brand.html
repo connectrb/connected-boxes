@@ -1,0 +1,11 @@
+<h2 class="book-brand">
+  <a class="flex align-center" href="{{ cond (not .Site.Home.File) .Sites.Default.Home.RelPermalink .Site.Home.RelPermalink }}">
+    <svg class="book-logo" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+      <rect x="1" y="1" width="13" height="13"/>
+      <rect x="18" y="1" width="13" height="13"/>
+      <rect x="1" y="18" width="13" height="13"/>
+      <rect x="18" y="18" width="13" height="13"/>
+    </svg>
+    <span>{{ .Site.Title }}</span>
+  </a>
+</h2>
