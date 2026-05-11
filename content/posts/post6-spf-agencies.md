@@ -8,7 +8,7 @@ draft: false
 
 We’ve all seen the headlines. It’s usually a variation of the same story: the "good guys" chasing the "bad guys," with the villains always appearing to be three steps ahead. For a long time, I never really questioned who those "good guys" actually were—or what they were doing besides playing a permanent game of catch-up.
 
-But my recent work has made me look under the hood of Australia’s new defense system, the reality is far more complex than a simple police chase. To stop a scam today, it takes an entire ecosystem.
+But my recent work has made me look under the hood of Australia’s new defence system, the reality is far more complex than a simple police chase. To stop a scam today, it takes an entire ecosystem.
 
 This is the world of the Scams Prevention Framework (SPF). Established under the Scams Prevention Framework Act 2025 (a major addition to our Competition and Consumer Act 2010), this is the blueprint for how Australia is finally fighting back. 
 
