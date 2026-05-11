@@ -15,7 +15,7 @@ So this year, when the time arrived, I thought to myself – It's 2026. Couldn't
 
 The concept is straightforward. My tax agent has completed the work. My goal is simply to have an AI read all the documents (investment incomes, expenses, etc.) I provided to my agent and verify the final tax return details. I recently transitioned from OpenCode to pi.dev for my agentic solutions. All I had to do was provide a simple instruction: read all documents from the input folder and verify the details in my tax return.
 
-**As a side note – I highly recommend installing and playing with pi.dev. It's addictively good.**
+**As a side note – I highly recommend installing and playing with pi.dev. It's addictive.**
 
 ---
 ## Initial Attempt
@@ -28,13 +28,13 @@ In my mind, I was literally saying, "Go AI Agent – do your magic! Save me from
 
 It sprang into action, generating pages of its own problems and solutions. It gobbled up expensive tokens like a vacuum, performing tasks that were beyond my understanding.
 
-I proudly told my wife I was using AI to verify our tax return. She works for a bank and knows firsthand that AI adoption often falters in scenarios requiring specialist human intervention. She was understandably skeptical about a magical agent verifying our returns.
+I proudly told my wife I was using AI to verify our tax return. She works for a bank and knows firsthand that AI adoption often falters in scenarios requiring specialist human intervention. She was understandably sceptical about a magical agent verifying our returns.
 
 Even though she was doubtful, I persisted. I had my own doubts about how the agent worked, but I didn't have the patience to read through all the scrolling text and figure out what it was thinking. I remain amused by the agent's self-talk:
 
 _"Oh wait, I think I took a wrong approach there."_
 
-_"Oh, I think I am overcomplicating this for myself."_
+_"Oh, I think I am over-complicating this for myself."_
 
 _"The calculation is wrong. Let me read the document again."_
 
@@ -71,7 +71,7 @@ So, the thought was: I must train the agent to follow a specific procedure. This
 
 First, I had to ensure my agent understood I expected a general assistant, not a coding assistant. This "personality" change is easily done by updating `SYSTEMS.md`.
 
-My `SYSTEMS.md` is straightforward. Yes, I've named my agent "Caesor".
+My `SYSTEMS.md` is straightforward. Yes, I've named my agent "Caesar".
 
 ```markdown
 # Identity
@@ -113,8 +113,8 @@ I started outlining the skills my tax return review agent would need by consider
 
 Brainstorming this with the agent, we developed a 7-stage `SKILL.md` framework. Key stages included:
 *   **Stage 1: Completeness & Temporal Audit:** Initial checks on document integrity and timelines.
-*   **Stage 2: Evidence Cataloging (Input Analysis):** Reading and indexing all provided source documents.
-*   **Stage 3: Output Parsing & Initial Labelling:** Extracting and organizing data from the tax return itself.
+*   **Stage 2: Evidence Cataloguing (Input Analysis):** Reading and indexing all provided source documents.
+*   **Stage 3: Output Parsing & Initial Labelling:** Extracting and organising data from the tax return itself.
 *   **Stage 4: Mathematical Validation:** Re-calculating all derived figures against source data.
 *   **Stage 5: Deduction Gap Analysis:** Cross-referencing claimed deductions against ATO guidelines and identifying potential missed deductions.
 *   **Stage 6: Sanity & Compliance Audit:** General checks for adherence to tax law and logical consistency.
